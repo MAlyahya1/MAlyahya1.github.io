@@ -124,6 +124,29 @@
             font-size: 0.9rem;
         }
 
+        .education-item, .experience-item {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .education-item h3, .experience-item h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        .education-item p, .experience-item p {
+            margin: 0.3rem 0;
+            color: #555;
+        }
+
+        .education-item strong, .experience-item strong {
+            color: #333;
+        }
+
         footer {
             background-color: #333;
             color: white;
@@ -169,6 +192,8 @@
     <!-- Navigation -->
     <nav>
         <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
@@ -180,13 +205,40 @@
         <section id="about">
             <h2>About Me</h2>
             <p class="intro">
-                I'm Mohammed Alyahya, an Economist at Saudi Central Bank with a unique educational background combining engineering and economics expertise. 
-                I hold a Bachelor of Science in Electrical Engineering from Shaqra University (Aug 2018 - Jun 2023). 
-                Currently, I'm pursuing advanced education through a private program at Al Faisal University sponsored by Saudi Central Bank (Sep 2024 - May 2025), 
-                while also completing my Master of Science in Economics at Arizona State University (Aug 2025 - May 2026). 
-                My diverse background enables me to approach complex economic and financial challenges from both quantitative and technical perspectives. 
+                I'm Mohammed Alyahya, an Economist at Saudi Central Bank with a unique background combining electrical engineering and economics expertise. 
                 I'm passionate about monetary policy, financial systems, and applying data-driven methods to economic research.
             </p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Master of Science in Economics</h3>
+                <p><strong>Arizona State University</strong></p>
+                <p>Aug 2025 - May 2026</p>
+            </div>
+            <div class="education-item">
+                <h3>Advanced Economics Program</h3>
+                <p><strong>Al Faisal University</strong> (Sponsored by Saudi Central Bank)</p>
+                <p>Sep 2024 - May 2025</p>
+            </div>
+            <div class="education-item">
+                <h3>Bachelor of Science in Electrical Engineering</h3>
+                <p><strong>Shaqra University</strong></p>
+                <p>Aug 2018 - Jun 2023</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Economist</h3>
+                <p><strong>Saudi Central Bank</strong></p>
+                <p>Current Position</p>
+                <p>Focus on monetary policy analysis, financial market research, and economic modeling.</p>
+            </div>
         </section>
 
         <!-- Projects Section -->
